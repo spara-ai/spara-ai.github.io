@@ -11,12 +11,6 @@ section {
     text-align: center;
 }
 
-footer {
-    padding: 100px;
-    text-align: right;
-    font-weight: lighter;
-}
-
 h1 {
     font-size: 80px;
     font-weight: bold;
@@ -55,4 +49,10 @@ a.btn:hover {
     background-color: #D3B2C1;
     color: white;
     text-decoration: none;
+}
+
+.footer {
+    padding: 100px;
+    text-align: right;
+    font-weight: lighter;
 }
