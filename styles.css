@@ -14,6 +14,7 @@ section {
 footer {
     padding: 100px;
     text-align: right;
+    font-weight: light;
 }
 
 h1 {
@@ -24,6 +25,10 @@ h1 {
 
 h4 {
     font-weight: light;
+    margin-bottom: 100px;
+}
+
+.mb-100 {
     margin-bottom: 100px;
 }
 
