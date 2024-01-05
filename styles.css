@@ -7,15 +7,47 @@ body {
 }
 
 section {
-    padding: 100px;
+    padding: 200px 100px;
     text-align: center;
 }
 
-h1 {
-    font-size: ;
-    font-display: bold;
+footer {
+    padding: 100px;
+    text-align: right;
 }
 
-h4, p {
-    font-display: light;
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+h4 {
+    font-weight: light;
+    margin-bottom: 100px;
+}
+
+a {
+    color: white;
+    font-weight: light;
+}
+
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ECCBDA
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid white; /* Can be adjusted or removed */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+a.btn:hover {
+    background-color: #D3B2C1;
+    color: white;
+    text-decoration: none;
 }
