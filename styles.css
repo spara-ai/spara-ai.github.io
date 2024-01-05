@@ -7,7 +7,7 @@ body {
 }
 
 section {
-    padding: 200px 100px;
+    padding: 1600px 100px;
     text-align: center;
 }
 
@@ -26,6 +26,7 @@ h1 {
 h3 {
     font-weight: light;
     margin-bottom: 100px;
+    font-weight: lighter;
 }
 
 .mb-100 {
