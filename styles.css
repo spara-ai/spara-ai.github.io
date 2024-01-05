@@ -1,11 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: #000;
+    color: white;
+    background: linear-gradient(-0.1turn, #4A5FC3, #4E6DD8, #6EEDFC);
+    height: 100vh;
 }
 
 section {
-    padding: 20px;
+    padding: 100px;
     text-align: center;
-    background-color: blue;
+}
+
+h1 {
+    font-size: ;
+    font-display: bold;
+}
+
+h4, p {
+    font-display: light;
 }
