@@ -2,7 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: white;
-    background: linear-gradient(-0.1turn, #4A5FC3, #4E6DD8, #6EEDFC);
+    background: white;
+    /* background: linear-gradient(-0.1turn, #4A5FC3, #4E6DD8, #6EEDFC); */
     height: 100vh;
 }
 
@@ -49,4 +50,15 @@ a.btn:hover {
     background-color: #D3B2C1;
     color: white;
     text-decoration: none;
+}
+
+.logo {
+  position: fixed;
+  top: 0; 
+  right: 0;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* To maintain aspect ratio */
 }
