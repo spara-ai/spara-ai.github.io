@@ -12,6 +12,12 @@ section {
     text-align: center;
 }
 
+@media (max-width: 767px) {
+    section {
+        padding: 100px 0;
+    }
+}
+
 h1 {
     font-size: 80px;
     font-weight: bold;
@@ -60,6 +66,18 @@ a.btn:hover {
 }
 
 .logo img {
-  width: 600px; /* Adjust the width as needed */
+  width: 600px;
   height: auto; /* To maintain aspect ratio */
+}
+
+
+@media (max-width: 767px) {
+  .logo {
+    top: -175px;
+    right: -175px; 
+  }
+
+  .logo img {
+    width: 400px;
+  }
 }
