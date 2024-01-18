@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: white;
+    color: black;
     background: white;
     /* background: linear-gradient(-0.1turn, #4A5FC3, #4E6DD8, #6EEDFC); */
     height: 100vh;
@@ -24,8 +24,8 @@ h3 {
     font-weight: lighter;
 }
 
-.mb-100 {
-    margin-bottom: 100px;
+.mb-60 {
+    margin-bottom: 60px;
 }
 
 a {
@@ -43,22 +43,23 @@ a.btn {
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid white; /* Can be adjusted or removed */
+    background: #4E6DD8;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
 a.btn:hover {
-    background-color: #D3B2C1;
+    background-color: #4A5FC3;
     color: white;
     text-decoration: none;
 }
 
 .logo {
   position: fixed;
-  top: 0; 
-  right: 0;
+  top: -120px; 
+  right: -120px;
 }
 
 .logo img {
-  width: 100px; /* Adjust the width as needed */
+  width: 600px; /* Adjust the width as needed */
   height: auto; /* To maintain aspect ratio */
 }
